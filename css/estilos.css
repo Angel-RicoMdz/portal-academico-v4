@@ -22,7 +22,7 @@
 
 /* Ajuste para celular */
 @media (max-width: 600px) {
-    .course-hero {
+    .hero course-hero {
         padding: 30px 20px;
     }
     
