@@ -93,7 +93,7 @@ window.COURSE_DATA = {
         {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
-          "url": "https://www.youtube.com/ncCO7bsRSc8"
+          "url": "https://www.youtube.com/watch?v=ncCO7bsRSc8"
         }
       ]
     },
