@@ -1,9 +1,9 @@
 window.COURSE_DATA = {
   "slug": "inteligencia-artificial",
   "name": "Inteligencia Artificial y Redes Neuronales",
-  "category": "IA Y APRENDIZAJE AUTOMÁTICO",
+  "category": "TOPICOS DE MECATRÖNICA",
   "description": "Fundamentos de IA, perceptrones, redes neuronales y aprendizaje profundo.",
-  "semester": "Semestre por definir",
+  "semester": "Semestre 7 mo",
   "units": [
     {
       "id": "u1",
@@ -43,7 +43,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u5",
-      "title": "Proyecto aplicado",
+      "title": "Producto Integrador",
       "weeks": [
         13,
         14,
