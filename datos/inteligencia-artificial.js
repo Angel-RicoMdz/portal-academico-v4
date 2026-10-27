@@ -7,7 +7,7 @@ window.COURSE_DATA = {
   "units": [
     {
       "id": "u1",
-      "title": "Fundamentos y agentes inteligentes",
+      "title": "Antecedentes de la Inteligencia Artificial y la solución de problemas",
       "weeks": [
         1,
         2,
@@ -16,7 +16,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u2",
-      "title": "Búsqueda y resolución de problemas",
+      "title": "Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
       "weeks": [
         4,
         5,
@@ -25,7 +25,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u3",
-      "title": "Perceptrón y redes multicapa",
+      "title": "Programación lógica y búsquedas de un Sistema experto",
       "weeks": [
         7,
         8,
@@ -34,14 +34,14 @@ window.COURSE_DATA = {
     },
     {
       "id": "u4",
-      "title": "Entrenamiento y evaluación de modelos",
+      "title": "Introducción a las Redes Neuronales y lógica difusa",
       "weeks": [
         10,
         11,
         12
       ]
     },
-    {
+/*    {
       "id": "u5",
       "title": "Producto Integrador",
       "weeks": [
@@ -50,13 +50,13 @@ window.COURSE_DATA = {
         15,
         16
       ]
-    }
+    }  */
   ],
   "weeks": [
     {
       "number": 1,
-      "title": "Fundamentos y agentes inteligentes · parte 1",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
+      "title": "Introducción a la IA ",
+      "objective": "Introducción a los sistemas inteligentes,definiciones, ejemplos y aplicaciones.",
       "resources": [
         {
           "type": "pdf",
@@ -72,14 +72,14 @@ window.COURSE_DATA = {
     },
     {
       "number": 2,
-      "title": "Fundamentos y agentes inteligentes · parte 2",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
+      "title": " Historia y fundamentos de la IA ",
+      "objective": "Fundamentos de la IA, Filosofía, Matemáticas, Economía, Neurociencia. .",
       "resources": []
     },
     {
       "number": 3,
-      "title": "Fundamentos y agentes inteligentes · parte 3",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
+      "title": "Agentes inteligentes",
+      "objective": "Agentes y su entorno, medida de rendimiento, naturaleza del entorno, REAS.",
       "resources": []
     },
     {
