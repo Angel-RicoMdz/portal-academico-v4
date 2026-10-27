@@ -67,6 +67,16 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
           "url": "https://youtu.be/iw0bk1wiSXc"
+        },
+         {
+          "type": "pdf",
+          "label": "Historia y fundamentos de la IA",
+          "url": "../materiales/ia/IA_clase_2_Historia_y_fundamentos_de_la_IA.pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario (enlace proporcionado)",
+          "url": "https://youtu.be/gU6HT0f8e98"
         }
       ]
     },
