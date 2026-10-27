@@ -84,6 +84,16 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
           "url": "https://youtu.be/gU6HT0f8e98"
+        },
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Aplicaciones de la IA",
+          "url": "../materiales/ia/IA_clase_3_Aplicaciones_de_la_IA (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario (enlace proporcionado)",
+          "url": "hhttps://www.youtube.com/ncCO7bsRSc8"
         }
       ]
     },
