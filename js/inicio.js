@@ -1,1 +1,7 @@
-(()=>{'use strict';const input=document.querySelector('#course-search');const cards=[...document.querySelectorAll('.course-card')];const none=document.querySelector('#no-results');if(!input)return;input.addEventListener('input',()=>{const q=input.value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();let shown=0;for(const card of cards){const hay=card.textContent.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();card.hidden=!hay.includes(q);if(!card.hidden)shown++}none.hidden=shown!==0})})();
+(()=>{'use strict';
+      const input=document.querySelector('#course-search');
+      const cards=[...document.querySelectorAll('.course-card')];
+      const none=document.querySelector('#no-results');
+      if(!input)return;input.addEventListener('input',()=>{const q=input.value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+                                                           let shown=0;for(const card of cards){const hay=card.textContent.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+                                                                                                card.hidden=!hay.includes(q);if(!card.hidden)shown++}none.hidden=shown!==0})})();
