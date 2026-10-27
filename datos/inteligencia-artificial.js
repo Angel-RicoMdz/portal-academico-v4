@@ -40,9 +40,7 @@ window.COURSE_DATA = {
       "title": "Introducción a las Redes Neuronales y lógica difusa",
       "weeks": [
         13,
-        14,
-        15,
-        16
+        14
       ]
     },
    {
@@ -69,17 +67,6 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
           "url": "https://youtu.be/iw0bk1wiSXc"
-        },
-        /* Tema 2*/
-        {
-          "type": "pdf",
-          "label": "Historia y Fundamentos de la IA",
-          "url": "../materiales/ia/IA_clase_2_Historia_y_fundamentos_de_la_IA.pdf"
-        },
-        {
-          "type": "youtube",
-          "label": "Video complementario (enlace proporcionado)",
-          "url": "https://youtu.be/embed/gU6HT0f8e98"
         }
       ]
     },
