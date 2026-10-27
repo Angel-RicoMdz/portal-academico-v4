@@ -11,46 +11,48 @@ window.COURSE_DATA = {
       "weeks": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "u2",
       "title": "Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
       "weeks": [
-        4,
         5,
-        6
+        6,
+        7,
+        8
       ]
     },
     {
       "id": "u3",
       "title": "Programación lógica y búsquedas de un Sistema experto",
       "weeks": [
-        7,
-        8,
-        9
+        9,
+        10,
+        11,
+        12
       ]
     },
     {
       "id": "u4",
       "title": "Introducción a las Redes Neuronales y lógica difusa",
       "weeks": [
-        10,
-        11,
-        12
-      ]
-    },
-/*    {
-      "id": "u5",
-      "title": "Producto Integrador",
-      "weeks": [
         13,
         14,
         15,
         16
       ]
-    }  */
+    },
+   {
+      "id": "u5",
+      "title": "Producto Integrador",
+      "weeks": [
+        15,
+        16
+      ]
+    }  
   ],
   "weeks": [
     {
@@ -67,6 +69,17 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
           "url": "https://youtu.be/iw0bk1wiSXc"
+        },
+        /* Tema 2*/
+        {
+          "type": "pdf",
+          "label": "Historia y Fundamentos de la IA",
+          "url": "../materiales/ia/IA_clase_2_Historia_y_fundamentos_de_la_IA.pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario (enlace proporcionado)",
+          "url": "https://youtu.be/embed/gU6HT0f8e98"
         }
       ]
     },
