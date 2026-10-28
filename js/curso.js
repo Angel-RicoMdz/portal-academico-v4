@@ -20,11 +20,51 @@
                                a.textContent=({'pdf':'▤ PDF · ','youtube':'▶ Video · ','practica':'◇ Práctica · ','tarea':'✓ Tarea · ','codigo':'⌘ Código · '})[r.type]||'Abrir · ';
                                a.append(document.createTextNode(r.label));
                                const url=r.url||'';
-                               const safe=url.startsWith('../materiales/')||/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//.test(url);if(!safe){a.textContent='Enlace no válido';
-                                                                                                                                                return a}a.href=url;if(r.type==='pdf'){a.addEventListener('click',e=>{e.preventDefault();
-                                                                                                                                                                                                                      viewerTitle.textContent=r.label;frame.src=url;newtab.href=url;
-                                                                                                                                                                                                                      viewer.showModal()})}else{a.target='_blank';
-                                                                                                                                                                                                                                                a.rel='noopener noreferrer'}return a}function render(q=''){container.replaceChildren();
+                               const safe=url.startsWith('../materiales/')||/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//.test(url);
+                               if(!safe){a.textContent='Enlace no válido';
+                                                                                                                                                return a}a.href=url;
+if (
+  r.type === 'pdf' ||
+  r.type === 'practica' ||
+  r.type === 'tarea' ||
+  r.type === 'youtube'
+) {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+
+    viewerTitle.textContent = r.label;
+    newtab.href = url;
+
+    if (r.type === 'youtube') {
+      const videoURL = new URL(url);
+      let videoID = '';
+
+      if (videoURL.hostname === 'youtu.be') {
+        videoID = videoURL.pathname.split('/')[1];
+      } else {
+        videoID = videoURL.searchParams.get('v');
+      }
+
+      if (!/^[a-zA-Z0-9_-]{11}$/.test(videoID || '')) {
+        return;
+      }
+
+      frame.src =
+        'https://www.youtube-nocookie.com/embed/' + videoID;
+
+      newtab.textContent = 'Ver en YouTube';
+    } else {
+      frame.src = url;
+      newtab.textContent = 'Abrir documento';
+    }
+
+    viewer.showModal();
+  });
+} else {
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+}
+                               return a}function render(q=''){container.replaceChildren();
                                                                                                                                                                                                                                                                                                            let shown=0;const normalize=t=>(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
                                                                                                                                                                                                                                                                                                            for(const unit of data.units){const weeks=unit.weeks.map(n=>data.weeks.find(w=>w.number===n)).filter(Boolean);
                                                                                                                                                                                                                                                                                                                                          const matching=weeks.filter(w=>normalize(`${unit.title} ${w.title} ${w.number} ${w.resources.map(r=>r.label).join(' ')}`).includes(normalize(q)));
