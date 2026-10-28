@@ -11,14 +11,14 @@ window.COURSE_DATA = {
       "weeks": [
         1,
         2,
-        3,
-        4
+        3
       ]
     },
     {
       "id": "u2",
       "title": "Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
       "weeks": [
+        4,
         5,
         6,
         7,
