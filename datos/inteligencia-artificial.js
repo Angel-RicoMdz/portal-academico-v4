@@ -101,7 +101,48 @@ window.COURSE_DATA = {
       "number": 3,
       "title": "Agentes inteligentes",
       "objective": "Agentes y su entorno, medida de rendimiento, naturaleza del entorno, REAS.",
-      "resources": []
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Agente en un sistema inteligente",
+          "url": "../materiales/ia/IA_clase_4_agente (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=1n_D7mkjFTQ"
+        },
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Entorno de trabajo (REAS)",
+          "url": "../materiales/ia/IA_clase_5_Entorno_de_trabajo (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=BgDDr03gsao"
+        },
+         {
+          "type": "pdf",
+          "label": "Diapositivas - Tipos de Agentes",
+          "url": "../materiales/ia/IA_clase_6_Tipos_de_agentes (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=tRQrFXUQkeo"
+        },
+         {
+          "type": "pdf",
+          "label": "Diapositivas - Tipos de Agentes pte 2",
+          "url": "../materiales/ia/IA_clase_7_Tipos_de_agentes_2 (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=lUzP5y70mhs"
+        }
+      ]
     },
     {
       "number": 4,
