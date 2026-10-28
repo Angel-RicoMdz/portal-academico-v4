@@ -111,6 +111,15 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario ",
           "url": "https://www.youtube.com/watch?v=1n_D7mkjFTQ"
+        }, {
+          "type": "pdf",
+          "label": "Diapositivas - Entorno de trabajo (REAS)",
+          "url": "../materiales/ia/IA_clase_5_Entorno_de_trabajo (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=BgDDr03gsao"
         }
       ]
     },
