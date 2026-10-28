@@ -7,7 +7,7 @@ window.COURSE_DATA = {
   "units": [
     {
       "id": "u1",
-      "title": "Antecedentes de la Inteligencia Artificial y la solución de problemas",
+      "title": "UNIDAD TEMATICA 1: Antecedentes de la Inteligencia Artificial y la solución de problemas",
       "weeks": [
         1,
         2,
@@ -16,7 +16,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u2",
-      "title": "Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
+      "title": "UNIDAD TEMATICA 2: Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
       "weeks": [
         4,
         5,
@@ -27,7 +27,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u3",
-      "title": "Programación lógica y búsquedas de un Sistema experto",
+      "title": "UNIDAD TEMATICA 3: Programación lógica y búsquedas de un Sistema experto",
       "weeks": [
         9,
         10,
@@ -37,7 +37,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u4",
-      "title": "Introducción a las Redes Neuronales y lógica difusa",
+      "title": "UNIDAD TEMATICA 4: Introducción a las Redes Neuronales y lógica difusa",
       "weeks": [
         13,
         14
