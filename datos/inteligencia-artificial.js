@@ -65,8 +65,8 @@ window.COURSE_DATA = {
         },
         {
           "type": "youtube",
-          "label": "Video complementario (enlace proporcionado)",
-          "url": "https://youtu.be/iw0bk1wiSXc"
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=iw0bk1wiSXc"
         }
       ]
     },
@@ -82,8 +82,8 @@ window.COURSE_DATA = {
         },
         {
           "type": "youtube",
-          "label": "Video complementario (enlace proporcionado)",
-          "url": "https://youtube.com/gU6HT0f8e98"
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=gU6HT0f8e98&t"
         },
         {
           "type": "pdf",
