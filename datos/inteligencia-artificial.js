@@ -1,4 +1,4 @@
-window.COURSE_DATA = {
+logicos window.COURSE_DATA = {
   "slug": "inteligencia-artificial",
   "name": "Inteligencia Artificial y Redes Neuronales",
   "category": "TOPICOS DE MECATRÖNICA",
@@ -153,9 +153,21 @@ window.COURSE_DATA = {
     },
     {
       "number": 5,
-      "title": "Búsqueda y resolución de problemas · parte 2",
-      "objective": "Tipos de busqueda no informada, BFS, DFS, IDS.",
-      "resources": []
+      "title": "Búsqueda no informada",
+      "objective": "Agentes basados en objetivos, solucion de problemas mediante búsqueda .",
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Solucion de problemas mediante búsqueda",
+          "url": "../materiales/ia/Clase_8_IA_SOLVING_PROBLEMS_BY_SEARCHING (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=o7_UVwxyXEQ"
+        }
+        
+      ]
     },
     {
       "number": 6,
