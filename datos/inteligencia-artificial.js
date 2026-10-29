@@ -11,14 +11,14 @@ window.COURSE_DATA = {
       "weeks": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "u2",
-      "title": "UNIDAD TEMATICA 2: Representación y validez de razonamientos, haciendo uso de la lógica de predicados",
+      "title": "UNIDAD TEMATICA 2: Búsquedas de un Sistema experto, representación y validez de razonamientos",
       "weeks": [
-        4,
         5,
         6,
         7,
@@ -27,7 +27,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u3",
-      "title": "UNIDAD TEMATICA 3: Programación lógica y búsquedas de un Sistema experto",
+      "title": "UNIDAD TEMATICA 3: Programación lógica, haciendo uso de la lógica de predicados",
       "weeks": [
         9,
         10,
@@ -92,7 +92,7 @@ window.COURSE_DATA = {
         },
         {
           "type": "youtube",
-          "label": "Video complementario (enlace proporcionado)",
+          "label": "Video complementario",
           "url": "https://www.youtube.com/watch?v=ncCO7bsRSc8"
         }
       ]
@@ -126,14 +126,35 @@ window.COURSE_DATA = {
     },
     {
       "number": 4,
-      "title": "Búsqueda y resolución de problemas · parte 1",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "title": "Tipos de agentes",
+      "objective": "Diferencias entre tipos de agentes y sus caracteristicas particulares.",
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Tipos de agentes pt1",
+          "url": "../materiales/ia/IA_clase_6_Tipos_de_agentes (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=tRQrFXUQkeo"
+        },
+        {
+          "type": "pdf",
+          "label": "Diapositivas - Tipos de agentes pt2",
+          "url": "../materiales/ia/IA_clase_7_Tipos_de_agentes_2 (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario ",
+          "url": "https://www.youtube.com/watch?v=lUzP5y70mhs"
+        }
+      ]
     },
     {
       "number": 5,
       "title": "Búsqueda y resolución de problemas · parte 2",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
+      "objective": "Tipos de busqueda no informada, BFS, DFS, IDS.",
       "resources": []
     },
     {
