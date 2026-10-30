@@ -27,7 +27,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u3",
-      "title": "Perceptrón y redes multicapa",
+      "title": "Agentes lógicos, uso inferéncia en predicados lógicos",
       "weeks": [
         9,
         10,
@@ -36,7 +36,7 @@ window.COURSE_DATA = {
     },
     {
       "id": "u4",
-      "title": "Entrenamiento y evaluación de modelos",
+      "title": "Redes Nauronales Artificiales y Lógica difusa",
       "weeks": [
         12,
         13,
