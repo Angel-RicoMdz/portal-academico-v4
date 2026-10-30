@@ -67,6 +67,16 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario (enlace proporcionado)",
           "url": "https://youtu.be/iw0bk1wiSXc"
+        },
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Historia y aplicaciones de la IA",
+          "url": "../materiales/ia/IA_clase_2_Historia_y_fundamentos_de_la_IA (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=gU6HT0f8e98"
         }
       ]
     },
