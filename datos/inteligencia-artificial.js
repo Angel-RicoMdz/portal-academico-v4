@@ -109,15 +109,37 @@ window.COURSE_DATA = {
     },
     {
       "number": 3,
-      "title": "Fundamentos y agentes inteligentes · parte 3",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "title": "Que es el entorno de trabajo (REAS)",
+      "objective": "Entorno de trabajo del agente, rendimiento, entorno, actuadores, sensores.",
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Tipos de agente",
+          "url": "../materiales/ia/IA_clase_5_Entorno_de_trabajo (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=BgDDr03gsao"
+        }
+      ]
     },
     {
       "number": 4,
-      "title": "Búsqueda y resolución de problemas · parte 1",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "title": "Tipos de agentes · parte 1",
+      "objective": "Tipos de agnetes en un sistema inteligentes.",
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Tipos de agente",
+          "url": "../materiales/ia/IA_clase_6_Tipos_de_agentes (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=tRQrFXUQkeo"
+        }
+      ]
     },
     {
       "number": 5,
