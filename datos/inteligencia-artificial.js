@@ -11,42 +11,42 @@ window.COURSE_DATA = {
       "weeks": [
         1,
         2,
-        3
+        3,
+        4,
       ]
     },
     {
       "id": "u2",
       "title": "Búsqueda y resolución de problemas",
       "weeks": [
-        4,
         5,
-        6
+        6,
+        7,
+        8
       ]
     },
     {
       "id": "u3",
       "title": "Perceptrón y redes multicapa",
       "weeks": [
-        7,
-        8,
-        9
+        9,
+        10,
+        11
       ]
     },
     {
       "id": "u4",
       "title": "Entrenamiento y evaluación de modelos",
       "weeks": [
-        10,
-        11,
-        12
+        12,
+        13,
+        14
       ]
     },
     {
       "id": "u5",
       "title": "Producto Integrador",
       "weeks": [
-        13,
-        14,
         15,
         16
       ]
