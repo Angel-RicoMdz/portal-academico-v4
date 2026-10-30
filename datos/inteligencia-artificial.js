@@ -114,7 +114,7 @@ window.COURSE_DATA = {
       "resources": [
         {
           "type": "pdf",
-          "label": "Diapositivas · Tipos de agente",
+          "label": "Diapositivas · Entorno de trabajo",
           "url": "../materiales/ia/IA_clase_5_Entorno_de_trabajo (1).pdf"
         },
         {
