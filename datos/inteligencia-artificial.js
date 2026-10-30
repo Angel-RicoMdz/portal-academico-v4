@@ -7,7 +7,7 @@ window.COURSE_DATA = {
   "units": [
     {
       "id": "u1",
-      "title": "Fundamentos y agentes inteligentes",
+      "title": "Fundamentos, historia y aplicaiones de la IA",
       "weeks": [
         1,
         2,
@@ -55,7 +55,7 @@ window.COURSE_DATA = {
   "weeks": [
     {
       "number": 1,
-      "title": "Fundamentos y agentes inteligentes · parte 1",
+      "title": "Fundamentos e historia de la IA",
       "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
       "resources": [
         {
@@ -65,12 +65,12 @@ window.COURSE_DATA = {
         },
         {
           "type": "youtube",
-          "label": "Video complementario (enlace proporcionado)",
+          "label": "Video complementario",
           "url": "https://youtu.be/iw0bk1wiSXc"
         },
         {
           "type": "pdf",
-          "label": "Diapositivas · Historia y aplicaciones de la IA",
+          "label": "Diapositivas · Historia y fundamentos de la IA",
           "url": "../materiales/ia/IA_clase_2_Historia_y_fundamentos_de_la_IA (1).pdf"
         },
         {
@@ -82,9 +82,30 @@ window.COURSE_DATA = {
     },
     {
       "number": 2,
-      "title": "Fundamentos y agentes inteligentes · parte 2",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "title": "Aplicaiones de la IA y agente",
+      "objective": "Tipos de aplicaiones de la IA, que es un agente en IA",
+      "resources": [
+         {
+          "type": "pdf",
+          "label": "Diapositivas · Aplicaiones de la IA",
+          "url": "../materiales/ia/IA_clase_3_Aplicaciones_de_la_IA (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=ncCO7bsRSc8"
+        },
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Que es un agente",
+          "url": "../materiales/ia/IA_clase_4_agente (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=1n_D7mkjFTQ"
+        }
+      ]
     },
     {
       "number": 3,
