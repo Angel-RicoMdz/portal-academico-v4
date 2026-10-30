@@ -60,7 +60,7 @@ window.COURSE_DATA = {
       "resources": [
         {
           "type": "pdf",
-          "label": "Diapositivas · Introducción a IA",
+          "label": "Diapositivas · Introducción a la IA",
           "url": "../materiales/ia/IA_clase_1_Introduccion_IA.pdf"
         },
         {
@@ -82,12 +82,12 @@ window.COURSE_DATA = {
     },
     {
       "number": 2,
-      "title": "Aplicaiones de la IA y agente",
-      "objective": "Tipos de aplicaiones de la IA, que es un agente en IA",
+      "title": "Aplicaciones de la IA y agente",
+      "objective": "Tipos de aplicaciones de la IA, que es un agente en IA",
       "resources": [
          {
           "type": "pdf",
-          "label": "Diapositivas · Aplicaiones de la IA",
+          "label": "Diapositivas · Aplicaciones de la IA",
           "url": "../materiales/ia/IA_clase_3_Aplicaciones_de_la_IA (1).pdf"
         },
         {
@@ -127,7 +127,7 @@ window.COURSE_DATA = {
     {
       "number": 4,
       "title": "Tipos de agentes · parte 1",
-      "objective": "Tipos de agnetes en un sistema inteligentes.",
+      "objective": "Tipos de agentes en un sistema inteligentes.",
       "resources": [
         {
           "type": "pdf",
