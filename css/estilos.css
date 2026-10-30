@@ -57,3 +57,58 @@
     }
 }
 
+/* Sección de referencias bibliográficas */
+.bibliografia {
+  margin-top: 35px;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dce5ee;
+  border-radius: 16px;
+}
+
+.bibliografia h2 {
+  font-size: 1.7rem;
+  color: #173a5e;
+  margin-bottom: 12px;
+}
+
+.bibliografia > p {
+  color: #64748b;
+  margin-bottom: 22px;
+}
+
+.referencia {
+  padding: 18px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.referencia:last-child {
+  border-bottom: none;
+}
+
+.tipo-referencia {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #087cac;
+}
+
+.referencia p {
+  line-height: 1.7;
+  color: #334155;
+  margin: 0 0 10px;
+}
+
+.referencia a {
+  color: #087cac;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.referencia a:hover {
+  text-decoration: underline;
+}
+
+
