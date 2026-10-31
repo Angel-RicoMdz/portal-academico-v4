@@ -170,9 +170,25 @@ window.COURSE_DATA = {
     },
     {
       "number": 6,
-      "title": "Búsqueda y resolución de problemas · parte 3",
+      "title": "Búsqueda no informada",
       "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Búsqueda no informada, tipos de busqueda BFS, DFS, IDS",
+          "url": "../materiales/ia/Clase_9_IA_Uninformed_Search_Strategies (1).pdf"
+        },
+           {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=PD51mU6-JsE"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=RytrKtScUZU"
+        }
+      ]
     },
     {
       "number": 7,
