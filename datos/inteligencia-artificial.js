@@ -138,14 +138,35 @@ window.COURSE_DATA = {
           "type": "youtube",
           "label": "Video complementario",
           "url": "https://www.youtube.com/watch?v=tRQrFXUQkeo"
+        },
+         {
+          "type": "pdf",
+          "label": "Diapositivas · Tipos de agente pte 2",
+          "url": "../materiales/ia/IA_clase_7_Tipos_de_agentes_2 (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=lUzP5y70mhs"
         }
       ]
     },
     {
       "number": 5,
-      "title": "Búsqueda y resolución de problemas · parte 2",
-      "objective": "Contenido y actividades de la semana; ajusta los objetivos según el programa analítico.",
-      "resources": []
+      "title": "Búsqueda y resolución de problemas.",
+      "objective": "Resolucion de problemas mediante búsqueda.",
+      "resources": [
+        {
+          "type": "pdf",
+          "label": "Diapositivas · Solucion de problemas de búsqueda",
+          "url": "../materiales/ia/Clase_8_IA_SOLVING_PROBLEMS_BY_SEARCHING (1).pdf"
+        },
+        {
+          "type": "youtube",
+          "label": "Video complementario",
+          "url": "https://www.youtube.com/watch?v=o7_UVwxyXEQ"
+        }
+      ]
     },
     {
       "number": 6,
